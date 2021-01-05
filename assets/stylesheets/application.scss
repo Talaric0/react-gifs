@@ -12,8 +12,10 @@
   .form-search {
     padding: 60px 60px 60px 120px;
     border: none;
-    font-size: 2.6em;
+    font-size: 2.8em;
     box-shadow: none;
+    color: #808080cc;
+    background-color: rgb(236, 240, 241);
     &:focus {
       box-shadow: none;
     }
@@ -42,6 +44,8 @@
       max-width: 80%;
       max-height: 80%;
       margin: auto;
+      box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 1);
+      border-radius: 7px;
     }
   }
 }
@@ -60,6 +64,14 @@
       width: 100%;
       margin: 5px;
       cursor: pointer;
+      transition: all 0.5s ease;
+      border-radius: 3px;
+    }
+
+    .gif:hover {
+      opacity: 80%;
+      transform: scale(0.95);
+      box-shadow: 0px 10px 30px -2px rgba(30,30,60,0.15);
     }
   }
 }
